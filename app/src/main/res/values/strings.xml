@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExchangeRatesApp</string>
+    <string name="navigation_item_calculator">Calculator</string>
+    <string name="navigation_item_graph">Graph</string>
+    <string name="navigation_item_list">Exchange rates</string>
+    <string name="fragment_calculator_header">Currency calculator</string>
+    <string name="fragment_calculator_button">Calculate</string>
+    <string name="fragment_calculator_convertTo">TO</string>
+    <string name="fragment_calculator_value_hint">enter value here</string>
+    <string name="fragment_calculator_default_from_currency">EUR</string>
+    <string name="fragment_calculator_default_to_currency">GBP</string>
+    <string name="fragment_calculator_result">Result</string>
+
+    <string name="fragment_exchangerate_currency_code">Currency</string>
+    <string name="fragment_exchangerate_buying_rate">Buying</string>
+    <string name="fragment_exchangerate_selling_rate">Selling</string>
+    <string name="fragment_exchangerate_median_rate">Median</string>
+    <string name="fragment_graph_bar_value">default value</string>
+
+
+
+
+</resources>

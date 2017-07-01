@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+>
+
+    <ImageView
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/ivLogo"
+            android:layout_margin="@dimen/dimen_5dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivLogo"
+            android:layout_toEndOf="@+id/ivLogo"
+            android:id="@+id/tvCurrencyName"
+            android:layout_margin="@dimen/dimen_5dp" android:gravity="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvCurrencyName"
+            android:layout_toEndOf="@+id/tvCurrencyName"
+            android:id="@+id/tvSellingRate"
+            android:layout_margin="@dimen/dimen_5dp" android:gravity="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvSellingRate"
+            android:layout_toEndOf="@+id/tvSellingRate"
+            android:id="@+id/tvBuyingRate"
+            android:layout_margin="@dimen/dimen_5dp" android:gravity="center"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvBuyingRate"
+            android:layout_toEndOf="@+id/tvBuyingRate"
+            android:id="@+id/tvMedianRate"
+            android:layout_margin="@dimen/dimen_5dp" android:gravity="center"/>
+</RelativeLayout>
